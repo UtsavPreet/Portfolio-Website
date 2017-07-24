@@ -1,0 +1,28 @@
+.body {
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'Arima Madurai', cursive;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+header, main, footer{
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
+.nav-color {
+    color: #272B4E;
+}
+
+.waves-effect.waves-dark .waves-ripple {
+      background-color: rgba(38, 50, 56, 0.65);
+    }
